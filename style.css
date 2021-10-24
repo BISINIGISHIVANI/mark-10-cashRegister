@@ -1,0 +1,28 @@
+:root{
+    --primary-color: #7c3aed;
+}
+body{
+    margin:0 auto;
+    width:70vh;
+    text-align: center;
+    box-sizing: border-box;
+}
+#container-primary{
+    display:flex;
+    flex-direction: column;
+    width:70%;
+}
+#btn-primary{
+    margin-top:1rem;
+}
+input{
+    padding:0.5rem;
+    border-radius: 0.5em;
+    border-color:var(--primary-color);
+}
+table td{
+    border:1px solid  #7c3aed;
+}
+ul li{
+    display:inline;
+}
