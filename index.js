@@ -6,7 +6,7 @@ var noOfNotes=document.querySelectorAll(".no-of-notes")
 
 var availableNotes=[2000,500,100,20,10,5,1];
 buttonIntial.addEventListener("click",function validateBillandCashAmout(){
-    // hideMessage();
+    hideMessage();
     if (billAmount.value>0){
         if(cashGiven.value>=billAmount.value){
           const amountToBeReturned=cashGiven.value-billAmount.value;
