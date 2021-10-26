@@ -2,15 +2,16 @@
     --primary-color: #7c3aed;
 }
 body{
-    margin:0 auto;
+    
     
     box-sizing: border-box;
-    width: 80vh;
+   
 }
 #container{
     display:flex;
     flex-direction: column;
-    width:70%;
+    width:50%;
+    margin: auto;
 }
 .table{
     width: 50%;
@@ -25,7 +26,12 @@ th,td{
     background-color: var(--primary-color);
     color:white;
     padding:5px;
-    margin:1rem;
+    /* margin:1rem; */
     border-radius: 0.4rem;
-
+    margin: 1px auto;
 }
+footer{
+    position: relative;
+    bottom: 0px;
+}
+
