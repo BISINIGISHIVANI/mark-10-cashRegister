@@ -66,3 +66,27 @@ th,td{
     color:var(--primary-color);
     margin-top: 5vh;
 }
+footer {
+    margin-top: 20vh;
+    text-align: center;
+  }
+  
+  footer p {
+    font-size: large;
+    text-align: center;
+  }
+  
+  .footer-list {
+    margin: 1rem;
+  }
+  
+  a,
+  img,
+  li {
+    display: inline;
+  }
+  
+  img {
+    width: 40px;
+    padding: 0.2rem;
+  }
